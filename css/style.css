@@ -4303,7 +4303,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     position: absolute;
     padding-bottom: 35.5%;
     padding-left: 24.5%;
-    top: 20%;
+    top: 13%;
     right: -15px;
   }
 
@@ -4365,6 +4365,12 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 @media (max-width: 767.98px) and (any-hover: none) {
   .item__icons {
     display: none;
+  }
+}
+
+@media (max-width: 730px) {
+  .devices__image {
+    top: 20%;
   }
 }
 
